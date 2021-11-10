@@ -20,9 +20,8 @@ class Game:
         self.game_mechanic = GameMechanics()
 
     def main(self):
-        #tetris_song = pygame.mixer.Sound("src/Original tetris theme.mp3")
-        #tetris_song.play(10)
-
+        tetris_song = pygame.mixer.Sound("assets/Original tetris theme.mp3")
+        tetris_song.play(50)
         second_grid = {}
         running = True
         change = False
